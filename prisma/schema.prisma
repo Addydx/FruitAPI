@@ -1,13 +1,69 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-// Get a free hosted Postgres database in seconds: `npx create-db`
+// ==========================================
+// Prisma Schema - Frutopedia API
+// ==========================================
 
 generator client {
-  provider = "prisma-client"
-  output   = "../generated/prisma"
+  provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
+}
+
+// ==========================================
+// Modelo principal
+// ==========================================
+
+model Fruta {
+  id                 Int      @id @default(autoincrement())
+  nombre             String
+  nombreCientifico   String   @map("nombre_cientifico")
+  familiaBotanica    String?  @map("familia_botanica")
+  otrosNombres       String[] @map("otros_nombres")
+  descripcion        String
+  categoria          String
+  sabor              String?
+
+  // --- Origen ---
+  origenPais         String?  @map("origen_pais")
+  origenRegion       String?  @map("origen_region")
+
+  // --- Listas simples ---
+  temporada          String[]
+  colores            String[]
+  usosCulinarios     String[] @map("usos_culinarios")
+  beneficios         String[]
+  alergias           String[]
+  curiosidades       String[]
+  imagenes           String[]
+
+  // --- Nutrición (aplanada, por porción) ---
+  porcionG           Int      @default(100) @map("porcion_g")
+  caloriasKcal        Float?  @map("calorias_kcal")
+  carbohidratosG      Float?  @map("carbohidratos_g")
+  azucaresG           Float?  @map("azucares_g")
+  fibraG              Float?  @map("fibra_g")
+  proteinasG          Float?  @map("proteinas_g")
+  grasasG             Float?  @map("grasas_g")
+
+  // --- Vitaminas ---
+  vitaminaCMg         Float?  @map("vitamina_c_mg")
+  vitaminaAUg         Float?  @map("vitamina_a_ug")
+  vitaminaKUg         Float?  @map("vitamina_k_ug")
+
+  // --- Minerales ---
+  potasioMg           Float?  @map("potasio_mg")
+  calcioMg            Float?  @map("calcio_mg")
+  hierroMg            Float?  @map("hierro_mg")
+
+  // --- Conservación ---
+  conservacionMetodo       String? @map("conservacion_metodo")
+  conservacionDuracionDias Int?    @map("conservacion_duracion_dias")
+
+  // --- Metadatos ---
+  creadoEn           DateTime @default(now()) @map("creado_en")
+  actualizadoEn      DateTime @updatedAt @map("actualizado_en")
+
+  @@map("frutas")
 }
