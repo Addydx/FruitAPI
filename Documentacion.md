@@ -3,7 +3,7 @@
 ### ✔ Ya completado
 - PostgreSQL instalado y funcionando (v18)
 - Base de datos `fruitapi` creada
-- Usuario `fruituser` creado
+- Usuario `addydx` creado
 - Prisma instalado y configurado
 - Schema de `Fruta` ya definido (muy completo y correcto)
 - Proyecto Node/TypeScript inicializado

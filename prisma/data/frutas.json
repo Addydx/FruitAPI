@@ -1,0 +1,673 @@
+{
+    "total": 10,
+    "pagina": 1,
+    "por_pagina": 10,
+    "frutas": [
+        {
+            "nombre": "Manzana",
+            "nombre_cientifico": "Malus domestica",
+            "familia_botanica": "Rosaceae",
+            "otros_nombres": [
+                "Apple",
+                "Manzano"
+            ],
+            "descripcion": "Fruta de pulpa crujiente y jugosa, disponible en variedades dulces y ácidas, cultivada en climas templados de todo el mundo.",
+            "categoria": "Pomácea",
+            "origen": {
+                "pais": "Asia Central",
+                "region": "Kazajistán (montañas de Tian Shan)"
+            },
+            "temporada": [
+                "Otoño",
+                "Invierno"
+            ],
+            "colores": [
+                "Rojo",
+                "Verde",
+                "Amarillo"
+            ],
+            "sabor": "Dulce con notas ácidas",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Tartas",
+                "Compotas",
+                "Jugos",
+                "Sidra"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 52,
+                "carbohidratos_g": 13.8,
+                "azucares_g": 10.4,
+                "fibra_g": 2.4,
+                "proteinas_g": 0.3,
+                "grasas_g": 0.2,
+                "vitaminas": {
+                    "vitamina_C_mg": 4.6,
+                    "vitamina_A_ug": 3,
+                    "vitamina_K_ug": 2.2
+                },
+                "minerales": {
+                    "potasio_mg": 107,
+                    "calcio_mg": 6,
+                    "hierro_mg": 0.12
+                }
+            },
+            "beneficios": [
+                "Favorece la digestión por su fibra",
+                "Aporta antioxidantes",
+                "Ayuda a la salud cardiovascular"
+            ],
+            "alergias": [
+                "Síndrome de alergia oral (reacción cruzada con polen de abedul)"
+            ],
+            "curiosidades": [
+                "Existen más de 7,500 variedades de manzanas cultivadas en el mundo",
+                "Flota en el agua porque el 25% de su volumen es aire"
+            ],
+            "conservacion": {
+                "metodo": "Refrigerada",
+                "duracion_dias": 30
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Plátano",
+            "nombre_cientifico": "Musa acuminata",
+            "familia_botanica": "Musaceae",
+            "otros_nombres": [
+                "Banana",
+                "Guineo",
+                "Cambur"
+            ],
+            "descripcion": "Fruta alargada de cáscara amarilla y pulpa suave y dulce, una de las frutas más consumidas del mundo.",
+            "categoria": "Baya",
+            "origen": {
+                "pais": "Sudeste Asiático",
+                "region": "Malasia, Indonesia y Filipinas"
+            },
+            "temporada": [
+                "Todo el año"
+            ],
+            "colores": [
+                "Amarillo",
+                "Verde"
+            ],
+            "sabor": "Dulce",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Batidos",
+                "Repostería",
+                "Frituras",
+                "Harina de plátano"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 89,
+                "carbohidratos_g": 22.8,
+                "azucares_g": 12.2,
+                "fibra_g": 2.6,
+                "proteinas_g": 1.1,
+                "grasas_g": 0.3,
+                "vitaminas": {
+                    "vitamina_C_mg": 8.7,
+                    "vitamina_A_ug": 3,
+                    "vitamina_K_ug": 0.5
+                },
+                "minerales": {
+                    "potasio_mg": 358,
+                    "calcio_mg": 5,
+                    "hierro_mg": 0.26
+                }
+            },
+            "beneficios": [
+                "Alto contenido de potasio, bueno para músculos",
+                "Energía de rápida absorción",
+                "Ayuda a regular el tránsito intestinal"
+            ],
+            "alergias": [
+                "Reacción cruzada con látex (síndrome látex-fruta)"
+            ],
+            "curiosidades": [
+                "Botánicamente es una baya, no una fruta simple",
+                "La planta de plátano no es un árbol, sino una hierba gigante"
+            ],
+            "conservacion": {
+                "metodo": "Ambiente",
+                "duracion_dias": 6
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Fresa",
+            "nombre_cientifico": "Fragaria × ananassa",
+            "familia_botanica": "Rosaceae",
+            "otros_nombres": [
+                "Frutilla",
+                "Strawberry"
+            ],
+            "descripcion": "Fruta pequeña de color rojo intenso, textura suave y sabor dulce con un toque ácido, cubierta de pequeñas semillas externas.",
+            "categoria": "Fruto agregado (falsa baya)",
+            "origen": {
+                "pais": "Europa/América",
+                "region": "Híbrido desarrollado en Francia a partir de especies americanas"
+            },
+            "temporada": [
+                "Primavera",
+                "Verano"
+            ],
+            "colores": [
+                "Rojo"
+            ],
+            "sabor": "Dulce y ligeramente ácido",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Mermeladas",
+                "Postres",
+                "Batidos",
+                "Ensaladas"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 32,
+                "carbohidratos_g": 7.7,
+                "azucares_g": 4.9,
+                "fibra_g": 2.0,
+                "proteinas_g": 0.7,
+                "grasas_g": 0.3,
+                "vitaminas": {
+                    "vitamina_C_mg": 58.8,
+                    "vitamina_A_ug": 1,
+                    "vitamina_K_ug": 2.2
+                },
+                "minerales": {
+                    "potasio_mg": 153,
+                    "calcio_mg": 16,
+                    "hierro_mg": 0.41
+                }
+            },
+            "beneficios": [
+                "Excelente fuente de vitamina C",
+                "Rica en antioxidantes (antocianinas)",
+                "Bajo índice glucémico"
+            ],
+            "alergias": [
+                "Alergia común en niños, puede causar urticaria oral"
+            ],
+            "curiosidades": [
+                "Las semillas visibles por fuera son en realidad los verdaderos frutos",
+                "No pertenece botánicamente a las bayas"
+            ],
+            "conservacion": {
+                "metodo": "Refrigerada",
+                "duracion_dias": 5
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Pera",
+            "nombre_cientifico": "Pyrus communis",
+            "familia_botanica": "Rosaceae",
+            "otros_nombres": [
+                "Pear"
+            ],
+            "descripcion": "Fruta de forma característica acampanada, pulpa jugosa y granulada, con sabor suave y dulce.",
+            "categoria": "Pomácea",
+            "origen": {
+                "pais": "Asia Occidental y Europa",
+                "region": "Región entre el Cáucaso y Asia Central"
+            },
+            "temporada": [
+                "Otoño"
+            ],
+            "colores": [
+                "Verde",
+                "Amarillo",
+                "Rojo"
+            ],
+            "sabor": "Dulce y suave",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Postres al horno",
+                "Compotas",
+                "Ensaladas",
+                "Jugos"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 57,
+                "carbohidratos_g": 15.2,
+                "azucares_g": 9.8,
+                "fibra_g": 3.1,
+                "proteinas_g": 0.4,
+                "grasas_g": 0.1,
+                "vitaminas": {
+                    "vitamina_C_mg": 4.3,
+                    "vitamina_A_ug": 1,
+                    "vitamina_K_ug": 4.4
+                },
+                "minerales": {
+                    "potasio_mg": 116,
+                    "calcio_mg": 9,
+                    "hierro_mg": 0.18
+                }
+            },
+            "beneficios": [
+                "Alto contenido de fibra, favorece la saciedad",
+                "Ayuda a la digestión",
+                "Aporta antioxidantes"
+            ],
+            "alergias": [
+                "Síndrome de alergia oral (reacción cruzada con polen de abedul)"
+            ],
+            "curiosidades": [
+                "Existen más de 3,000 variedades conocidas",
+                "Maduran mejor fuera del árbol que en él"
+            ],
+            "conservacion": {
+                "metodo": "Refrigerada",
+                "duracion_dias": 14
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Kiwi",
+            "nombre_cientifico": "Actinidia deliciosa",
+            "familia_botanica": "Actinidiaceae",
+            "otros_nombres": [
+                "Kiwifruit",
+                "Grosella china"
+            ],
+            "descripcion": "Fruta de piel marrón vellosa y pulpa verde brillante con pequeñas semillas negras comestibles, sabor dulce y ácido.",
+            "categoria": "Baya",
+            "origen": {
+                "pais": "China",
+                "region": "Valle del río Yangtsé"
+            },
+            "temporada": [
+                "Otoño",
+                "Invierno"
+            ],
+            "colores": [
+                "Verde",
+                "Marrón (piel)"
+            ],
+            "sabor": "Dulce y ácido",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Ensaladas de fruta",
+                "Batidos",
+                "Decoración de postres"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 61,
+                "carbohidratos_g": 14.7,
+                "azucares_g": 9.0,
+                "fibra_g": 3.0,
+                "proteinas_g": 1.1,
+                "grasas_g": 0.5,
+                "vitaminas": {
+                    "vitamina_C_mg": 92.7,
+                    "vitamina_A_ug": 4,
+                    "vitamina_K_ug": 40.3
+                },
+                "minerales": {
+                    "potasio_mg": 312,
+                    "calcio_mg": 34,
+                    "hierro_mg": 0.31
+                }
+            },
+            "beneficios": [
+                "Muy alto contenido de vitamina C",
+                "Favorece la digestión (contiene actinidina)",
+                "Bueno para la salud de la piel"
+            ],
+            "alergias": [
+                "Alergeno común, puede causar reacciones desde leves hasta severas"
+            ],
+            "curiosidades": [
+                "Originalmente se llamaba 'grosella china' antes de comercializarse desde Nueva Zelanda",
+                "Contiene más vitamina C que una naranja"
+            ],
+            "conservacion": {
+                "metodo": "Refrigerada",
+                "duracion_dias": 21
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Sandía",
+            "nombre_cientifico": "Citrullus lanatus",
+            "familia_botanica": "Cucurbitaceae",
+            "otros_nombres": [
+                "Patilla",
+                "Watermelon"
+            ],
+            "descripcion": "Fruta grande de corteza verde y pulpa roja jugosa, muy refrescante y con alto contenido de agua.",
+            "categoria": "Pepónide",
+            "origen": {
+                "pais": "África",
+                "region": "África Occidental (posiblemente Sudán/Kalahari)"
+            },
+            "temporada": [
+                "Verano"
+            ],
+            "colores": [
+                "Verde (piel)",
+                "Rojo (pulpa)"
+            ],
+            "sabor": "Dulce y refrescante",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Jugos",
+                "Ensaladas",
+                "Sorbetes",
+                "Encurtidos de la corteza"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 30,
+                "carbohidratos_g": 7.6,
+                "azucares_g": 6.2,
+                "fibra_g": 0.4,
+                "proteinas_g": 0.6,
+                "grasas_g": 0.2,
+                "vitaminas": {
+                    "vitamina_C_mg": 8.1,
+                    "vitamina_A_ug": 28,
+                    "vitamina_K_ug": 0.1
+                },
+                "minerales": {
+                    "potasio_mg": 112,
+                    "calcio_mg": 7,
+                    "hierro_mg": 0.24
+                }
+            },
+            "beneficios": [
+                "Alta hidratación (92% agua)",
+                "Contiene licopeno, antioxidante beneficioso para el corazón",
+                "Bajo aporte calórico"
+            ],
+            "alergias": [
+                "Poco común, reacciones leves reportadas en casos aislados"
+            ],
+            "curiosidades": [
+                "Tanto la pulpa como la corteza son comestibles",
+                "En algunos países se consumen también sus semillas tostadas"
+            ],
+            "conservacion": {
+                "metodo": "Ambiente (entera) / Refrigerada (cortada)",
+                "duracion_dias": 10
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Mango",
+            "nombre_cientifico": "Mangifera indica",
+            "familia_botanica": "Anacardiaceae",
+            "otros_nombres": [
+                "Mango"
+            ],
+            "descripcion": "Fruta tropical de pulpa jugosa y fibrosa, sabor dulce e intenso, con un hueso grande en el centro.",
+            "categoria": "Drupa",
+            "origen": {
+                "pais": "India",
+                "region": "Sur de Asia (India y Myanmar)"
+            },
+            "temporada": [
+                "Primavera",
+                "Verano"
+            ],
+            "colores": [
+                "Verde",
+                "Amarillo",
+                "Rojo/Naranja"
+            ],
+            "sabor": "Dulce e intenso",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Jugos",
+                "Salsas",
+                "Ensaladas",
+                "Postres"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 60,
+                "carbohidratos_g": 15.0,
+                "azucares_g": 13.7,
+                "fibra_g": 1.6,
+                "proteinas_g": 0.8,
+                "grasas_g": 0.4,
+                "vitaminas": {
+                    "vitamina_C_mg": 36.4,
+                    "vitamina_A_ug": 54,
+                    "vitamina_K_ug": 4.2
+                },
+                "minerales": {
+                    "potasio_mg": 168,
+                    "calcio_mg": 11,
+                    "hierro_mg": 0.16
+                }
+            },
+            "beneficios": [
+                "Alto contenido de vitamina A, bueno para la vista",
+                "Rico en antioxidantes",
+                "Fuente de vitamina C"
+            ],
+            "alergias": [
+                "Puede causar dermatitis de contacto (relación con la familia Anacardiaceae, como el anacardo)"
+            ],
+            "curiosidades": [
+                "Es considerado el fruto nacional de India, Pakistán y Filipinas",
+                "Se cultiva desde hace más de 4,000 años"
+            ],
+            "conservacion": {
+                "metodo": "Ambiente (para madurar) / Refrigerada (maduro)",
+                "duracion_dias": 7
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Papaya",
+            "nombre_cientifico": "Carica papaya",
+            "familia_botanica": "Caricaceae",
+            "otros_nombres": [
+                "Fruta bomba",
+                "Lechosa",
+                "Mamón"
+            ],
+            "descripcion": "Fruta tropical de pulpa anaranjada, textura suave y semillas negras comestibles agrupadas en el centro.",
+            "categoria": "Baya",
+            "origen": {
+                "pais": "América Central",
+                "region": "México y Centroamérica"
+            },
+            "temporada": [
+                "Todo el año"
+            ],
+            "colores": [
+                "Verde (piel)",
+                "Naranja (pulpa)"
+            ],
+            "sabor": "Dulce y suave",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Jugos",
+                "Ensaladas",
+                "Guisos (verde)",
+                "Postres"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 43,
+                "carbohidratos_g": 10.8,
+                "azucares_g": 7.8,
+                "fibra_g": 1.7,
+                "proteinas_g": 0.5,
+                "grasas_g": 0.3,
+                "vitaminas": {
+                    "vitamina_C_mg": 60.9,
+                    "vitamina_A_ug": 47,
+                    "vitamina_K_ug": 2.6
+                },
+                "minerales": {
+                    "potasio_mg": 182,
+                    "calcio_mg": 20,
+                    "hierro_mg": 0.25
+                }
+            },
+            "beneficios": [
+                "Contiene papaína, enzima que favorece la digestión",
+                "Alto contenido de vitamina C y A",
+                "Propiedades antiinflamatorias"
+            ],
+            "alergias": [
+                "Reacción cruzada con látex (síndrome látex-fruta)"
+            ],
+            "curiosidades": [
+                "Sus semillas se pueden usar como sustituto de la pimienta negra",
+                "La planta no es un árbol verdadero, sino una hierba gigante"
+            ],
+            "conservacion": {
+                "metodo": "Ambiente (para madurar) / Refrigerada (madura)",
+                "duracion_dias": 7
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Naranja",
+            "nombre_cientifico": "Citrus × sinensis",
+            "familia_botanica": "Rutaceae",
+            "otros_nombres": [
+                "Orange",
+                "China (en algunos países de Latinoamérica)"
+            ],
+            "descripcion": "Cítrico de piel anaranjada y pulpa jugosa dividida en gajos, con sabor dulce y ligeramente ácido.",
+            "categoria": "Cítrico",
+            "origen": {
+                "pais": "China/Sudeste Asiático",
+                "region": "Sur de China"
+            },
+            "temporada": [
+                "Invierno",
+                "Primavera"
+            ],
+            "colores": [
+                "Naranja"
+            ],
+            "sabor": "Dulce y ácido",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Jugos",
+                "Mermeladas",
+                "Repostería",
+                "Ensaladas"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 47,
+                "carbohidratos_g": 11.8,
+                "azucares_g": 9.4,
+                "fibra_g": 2.4,
+                "proteinas_g": 0.9,
+                "grasas_g": 0.1,
+                "vitaminas": {
+                    "vitamina_C_mg": 53.2,
+                    "vitamina_A_ug": 11,
+                    "vitamina_K_ug": 0
+                },
+                "minerales": {
+                    "potasio_mg": 181,
+                    "calcio_mg": 40,
+                    "hierro_mg": 0.1
+                }
+            },
+            "beneficios": [
+                "Alta fuente de vitamina C",
+                "Fortalece el sistema inmunológico",
+                "Buena fuente de fibra soluble"
+            ],
+            "alergias": [
+                "Alergia poco común, puede causar dermatitis de contacto por la cáscara"
+            ],
+            "curiosidades": [
+                "Es un híbrido natural entre el pomelo y la mandarina",
+                "El color naranja no es indicador de madurez en climas tropicales"
+            ],
+            "conservacion": {
+                "metodo": "Ambiente/Refrigerada",
+                "duracion_dias": 21
+            },
+            "imagenes": []
+        },
+        {
+            "nombre": "Uva",
+            "nombre_cientifico": "Vitis vinifera",
+            "familia_botanica": "Vitaceae",
+            "otros_nombres": [
+                "Grape"
+            ],
+            "descripcion": "Fruta pequeña y redonda que crece en racimos, de piel fina y pulpa jugosa, disponible en variedades verdes, rojas y negras.",
+            "categoria": "Baya",
+            "origen": {
+                "pais": "Oriente Medio",
+                "region": "Región del Cáucaso y Asia Menor"
+            },
+            "temporada": [
+                "Verano",
+                "Otoño"
+            ],
+            "colores": [
+                "Verde",
+                "Rojo",
+                "Morado/Negro"
+            ],
+            "sabor": "Dulce",
+            "usos_culinarios": [
+                "Consumo fresco",
+                "Vino",
+                "Pasas (deshidratada)",
+                "Jugos",
+                "Mermeladas"
+            ],
+            "nutricion": {
+                "porcion_g": 100,
+                "calorias_kcal": 69,
+                "carbohidratos_g": 18.1,
+                "azucares_g": 15.5,
+                "fibra_g": 0.9,
+                "proteinas_g": 0.7,
+                "grasas_g": 0.2,
+                "vitaminas": {
+                    "vitamina_C_mg": 3.2,
+                    "vitamina_A_ug": 3,
+                    "vitamina_K_ug": 14.6
+                },
+                "minerales": {
+                    "potasio_mg": 191,
+                    "calcio_mg": 10,
+                    "hierro_mg": 0.36
+                }
+            },
+            "beneficios": [
+                "Rica en resveratrol, antioxidante beneficioso para el corazón",
+                "Ayuda a la hidratación",
+                "Aporta energía rápida"
+            ],
+            "alergias": [
+                "Poco frecuente, reacciones alérgicas leves reportadas"
+            ],
+            "curiosidades": [
+                "Es una de las frutas cultivadas más antiguas de la humanidad",
+                "Se usa para producir vino desde hace más de 6,000 años"
+            ],
+            "conservacion": {
+                "metodo": "Refrigerada",
+                "duracion_dias": 10
+            },
+            "imagenes": []
+        }
+    ]
+}
