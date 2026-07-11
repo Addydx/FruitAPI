@@ -1,0 +1,131 @@
+{
+  "info": {
+    "name": "Frutopedia API",
+    "description": "API CRUD para frutas - Frutopedia",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000"
+    }
+  ],
+  "item": [
+    {
+      "name": "GET /frutas - Listar todas",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/frutas",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas"]
+        }
+      }
+    },
+    {
+      "name": "GET /frutas - Con filtros y paginación",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/frutas?pagina=1&por_pagina=5&categoria=Baya&temporada=Verano&color=Rojo",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas"],
+          "query": [
+            { "key": "pagina", "value": "1" },
+            { "key": "por_pagina", "value": "5" },
+            { "key": "categoria", "value": "Baya" },
+            { "key": "temporada", "value": "Verano" },
+            { "key": "color", "value": "Rojo" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "GET /frutas/:id - Detalle",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/frutas/1",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas", "1"]
+        }
+      }
+    },
+    {
+      "name": "GET /frutas/:id - No encontrado",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/frutas/99999",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas", "99999"]
+        }
+      }
+    },
+    {
+      "name": "POST /frutas - Crear",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/frutas",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas"]
+        },
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"Fruta de Ejemplo\",\n  \"nombreCientifico\": \"Species exemplum\",\n  \"descripcion\": \"Una fruta de ejemplo para testing\",\n  \"categoria\": \"Ejemplo\",\n  \"otrosNombres\": [\"Test Fruit\"],\n  \"sabor\": \"Neutro\",\n  \"temporada\": [\"Todo el año\"],\n  \"colores\": [\"Verde\"],\n  \"usosCulinarios\": [\"Testing\"],\n  \"beneficios\": [\"Pruebas\"],\n  \"alergias\": [],\n  \"curiosidades\": [\"Es de ejemplo\"],\n  \"imagenes\": [],\n  \"caloriasKcal\": 50,\n  \"carbohidratosG\": 12,\n  \"azucaresG\": 8,\n  \"fibraG\": 2,\n  \"proteinasG\": 0.5,\n  \"grasasG\": 0.1,\n  \"vitaminaCMg\": 10,\n  \"vitaminaAUg\": 5,\n  \"vitaminaKUg\": 1,\n  \"potasioMg\": 100,\n  \"calcioMg\": 10,\n  \"hierroMg\": 0.2,\n  \"conservacionMetodo\": \"Refrigerada\",\n  \"conservacionDuracionDias\": 7\n}"
+        }
+      }
+    },
+    {
+      "name": "POST /frutas - Error validación",
+      "request": {
+        "method": "POST",
+        "url": {
+          "raw": "{{baseUrl}}/frutas",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas"]
+        },
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nombre\": \"\",\n  \"descripcion\": \"\"\n}"
+        }
+      }
+    },
+    {
+      "name": "PUT /frutas/:id - Actualizar",
+      "request": {
+        "method": "PUT",
+        "url": {
+          "raw": "{{baseUrl}}/frutas/1",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas", "1"]
+        },
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sabor\": \"Muy dulce y jugosa\"\n}"
+        }
+      }
+    },
+    {
+      "name": "DELETE /frutas/:id - Eliminar",
+      "request": {
+        "method": "DELETE",
+        "url": {
+          "raw": "{{baseUrl}}/frutas/101",
+          "host": ["{{baseUrl}}"],
+          "path": ["frutas", "101"]
+        }
+      }
+    }
+  ]
+}
