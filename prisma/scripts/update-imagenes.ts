@@ -4,10 +4,10 @@ import { PrismaPg } from "@prisma/adapter-pg";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
-const RANGO_INICIO = 60; // índice de array (0-based) => fruta #61
-const RANGO_FIN = 80; // exclusivo => fruta #80 incluida
-const ID_MIN_ESPERADO = 61;
-const ID_MAX_ESPERADO = 80;
+const RANGO_INICIO = 80; // índice de array (0-based) => fruta #81
+const RANGO_FIN = 100; // exclusivo => fruta #100 incluida
+const ID_MIN_ESPERADO = 81;
+const ID_MAX_ESPERADO = 100;
 
 const adapter = new PrismaPg({ connectionString: process.env.DATABASE_URL! });
 const prisma = new PrismaClient({ adapter });
