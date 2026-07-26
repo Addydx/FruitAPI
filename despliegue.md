@@ -24,8 +24,6 @@ Paso a paso para desplegar la API en **Render** (backend) y **Neon** (base de da
 postgresql://neondb_owner:xxxxx@ep-xxx-xxx.us-east-1.aws.neon.tech/frutopedia?sslmode=require
 ```
 
-postgresql://neondb_owner:npg_FKDVfOArg92Y@ep-flat-lake-ah9epgqg-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
-
 5. Guardar esta URL — la necesitaremos en el Paso 3
 
 > **Tip:** Neon crea la database automaticamente. No es necesario crear tablas a mano.
